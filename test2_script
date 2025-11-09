@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+for file in *.fasta; do
+        echo "processing file"
+        mv "$file" "${file%.fasta}_processed.fasta"
+done
+
+
+
