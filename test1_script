@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+
+
+if [! -f does not start with ">" ]; then
+        echo "error"
+else
+        sequencecount=$(grep -c ">" $1)
+        echo "total number of sequence: $sequrncecount"
+fi
+
+
+
+
